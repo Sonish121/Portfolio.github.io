@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Portfolio Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <!-- Back to Top -->
+	</head>
+	<body class="is-preload">
+	
+  <!-- Page with loader -->
+  <div id="page-with-loader">
+    <!-- Loading Screen -->
+    <div class="loader-container">
+      <div class="loader">
+        <div class="progress-bar"></div>
+        <div class="loader-text">Loading...</div>
+      </div>
+    </div>
+
+
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Sonic</strong> </a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="project.html">Projects</a></li>
+							<li><a href="generic.html">About Me</a></li>
+						</ul>
+					</nav>
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTop">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 4L4 12H9V20H15V12H20L12 4Z"/>
+        </svg>
+    </button>
+
+    <script>
+        let backToTopBtn = document.getElementById("backToTop");
+
+        // Show button when scrolling down
+        window.onscroll = function () {
+            if (document.documentElement.scrollTop > 50) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+        // Smooth scroll to top on button click
+        backToTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+    
+    
+
+				
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Sonish Poudel</h1>
+							</header>
+							<div class="content">
+								<p>Portfolio Website</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Video Editing</a></h3>
+									</header>
+								</article>
+								
+								<article>
+									<span class="image">
+										<img src="images/pi.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Design</a></h3>
+										<p>Logo Design,Game Pieces,Characters</p>
+									</header>
+								</article>
+
+								
+								<article>
+									<span class="image">
+										<img src="images/web.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Web Development</a></h3>
+										<p>HTML,CSS,JavaScript</p>
+									</header>
+								</article>
+
+								<article>
+									<span class="image">
+										<img src="images/pro.png" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Programming</a></h3>
+										<p>Python,C,C++</p>
+									</header>
+								</article>
+								
+								<article>
+									<span class="image">
+										<img src="images/sql.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Databases</a></h3>
+										<p>Sql</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/tech.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="project.html" class="link">Technical Writing</a></h3>
+										<p>Latex,PowerBI</p>
+									</header>
+								</article>
+							</section>
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">homosapienssapiens700@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(+977) 9844210166</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Bharatpur,Chitwan<br />
+										Nepal</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100005853168660" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/kamaladhikari276/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/Sonish121" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="https://www.linkedin.com/in/sonish-poudel-856282249/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; 2025 Sonish Poudel. All rights reserved.</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+			
+			
+					<!-- slideshow logic -->
+<script>
+  let slideIndex = 0;
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    
+    slides[slideIndex - 1].style.display = "block";
+    
+    setTimeout(showSlides, 1000); // Change slide every 1 second (1000ms)
+  }
+
+  showSlides(); // Start the slideshow
+</script>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
